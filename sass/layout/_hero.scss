@@ -1,0 +1,29 @@
+.hero{
+    padding: 5rem 0;
+    padding-bottom: 2rem;
+    margin-bottom: 4rem;
+    border-bottom: 1px solid $text-light;
+    &-content{
+        margin-top: 5rem;
+        // height: calc(100vh - #{$nav-height});
+
+        h2{
+            margin-bottom: 2rem;
+        }
+    }
+
+    &-right{
+        text-align: right;
+        overflow: hidden;
+        display: flex;
+        align-items: flex-start ;
+        height: 70vh;
+
+        img{
+            width: 100%;
+            // height: auto;
+            // height: 80vh;
+        }
+    }
+
+}

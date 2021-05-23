@@ -1,0 +1,23 @@
+.nav{
+    &-content{
+        height: $nav-height;
+        align-items: center;
+    }
+
+    &-brand{
+        color: $white;
+        text-decoration: none;
+    }
+
+    &-menu{
+        .btn:not(:last-child){
+            margin-bottom: 1rem;
+            
+            @include respond(tab){
+                margin-right: 1rem;
+                margin-bottom: 0;
+            }
+            
+        }
+    }
+}

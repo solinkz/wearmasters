@@ -1,0 +1,80 @@
+
+// Typography
+$font-family-sans-serif: 'poppins', sans-serif;
+$font-size-base:        1rem;
+$line-height-base:      1.6;
+
+$h1-font-size:          $font-size-base * 3.5;
+$h2-font-size:          $font-size-base * 3;
+$h3-font-size:          $font-size-base * 1.5;
+$h4-font-size:          $font-size-base * 1.3;
+
+
+
+
+
+// colors
+
+$primary:             #fa2d48;
+// $secondary:           #EDF1FD;
+$white:               #f3f4f6;
+$black:               #1f1f1f;
+$text:                #f3f4f6;
+$dark:                #1f1f1f;
+$text-light:          #435155;
+// $text-muted:          #9AA3B7;
+
+
+
+
+// fonts
+$font-size-md:          $font-size-base * 1;
+$font-size-sm:          $font-size-base * 0.8;
+$font-size-lg:          $font-size-base * 1.3;
+
+
+
+// border-radius
+$border-radius:         .25rem;
+$border-radius-lg:      .5rem;
+$border-radius-xl:      1rem;
+$border-radius-sm:      .25rem;
+
+// button and form
+// to affect all input buttons and buttons
+$input-btn-padding-y:  .8rem;
+$input-btn-padding-x:   1rem;
+
+$input-btn-font-size: $font-size-md;
+
+$input-btn-padding-y-lg:  1rem;
+$input-btn-padding-x-lg:   2rem;
+
+$input-btn-padding-y-sm:  .4rem;
+$input-btn-padding-x-sm:   1rem;
+
+$input-btn-focus-box-shadow: none;
+$input-btn-focus-width:      0;
+
+// Label
+$form-label-margin-bottom:             .5rem;
+$form-label-font-weight:               600;
+$form-label-color:                     $text;
+
+
+
+$btn-border-radius:           $border-radius !default;
+$btn-border-radius-lg:        $border-radius-lg !default;
+$btn-border-radius-sm:        $border-radius-sm !default;
+
+
+$input-padding-x:             1rem;
+
+
+// topnav
+
+$nav-height:                6.25rem;
+
+
+// Container
+$container-width:               1200px;

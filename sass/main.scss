@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap');
+
+@import 'abstracts/mixin';
+@import 'abstracts/variables';
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+
+@import 'base/base';
+@import 'base/typography';
+
+@import 'components/bid';
+@import 'components/owl-carousel';
+
+@import 'layout/button';
+@import 'layout/hero';
+@import 'layout/nav';   
+

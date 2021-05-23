@@ -1,0 +1,31 @@
+body{
+    color: $text;
+}
+
+h1 .h1{
+    font-size: $h1-font-size;
+}
+h2 .h2{
+    font-size: $h2-font-size;
+}
+h3 .h3{
+    font-size: $h3-font-size;
+}
+h4 .h4{
+    font-size: $h4-font-size;
+}
+
+h1,h2,h3,h4{
+    font-weight: 600;
+    color: $text;
+}
+
+p{
+    font-size: $font-size-md;
+    color: $text;
+}
+
+.subheading{
+    font-size: $h4-font-size;
+}
+
