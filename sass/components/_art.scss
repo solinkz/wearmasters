@@ -1,0 +1,41 @@
+.art{
+    &-item{
+        width: 240px;
+        margin-bottom: 2rem;
+        
+        &-img{
+            height: 225px;
+            overflow: hidden;
+            border-radius: .5rem;
+            position: relative;
+            margin-bottom: 1rem;
+            img{
+                width: 100%;
+            }
+
+            .dropdown{
+                position: absolute;
+                bottom: 1rem;
+                right: 1rem;
+                z-index: 2;
+                button{
+                    width: 2rem;
+                    height: 2rem;
+                    display: grid;
+                    place-items: center;
+                    border-radius: 50%;
+                    padding: 0;
+
+                    .iconify{
+                        font-size: $font-size-md;
+                    }
+                }
+            }
+        }
+    }
+
+    &-title, &-author{
+        display: block;
+        font-size: .9rem;
+    }
+}

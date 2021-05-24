@@ -2,7 +2,7 @@
     padding: 5rem 0;
     padding-bottom: 2rem;
     margin-bottom: 4rem;
-    border-bottom: 1px solid $text-light;
+    border-bottom: 1px solid rgba($text-light, .4);
     &-content{
         margin-top: 5rem;
         // height: calc(100vh - #{$nav-height});

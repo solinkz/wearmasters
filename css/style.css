@@ -7552,6 +7552,36 @@ p {
 .subheading {
   font-size: 1.3rem; }
 
+.art-item {
+  width: 240px;
+  margin-bottom: 2rem; }
+  .art-item-img {
+    height: 225px;
+    overflow: hidden;
+    border-radius: .5rem;
+    position: relative;
+    margin-bottom: 1rem; }
+    .art-item-img img {
+      width: 100%; }
+    .art-item-img .dropdown {
+      position: absolute;
+      bottom: 1rem;
+      right: 1rem;
+      z-index: 2; }
+      .art-item-img .dropdown button {
+        width: 2rem;
+        height: 2rem;
+        display: grid;
+        place-items: center;
+        border-radius: 50%;
+        padding: 0; }
+        .art-item-img .dropdown button .iconify {
+          font-size: 1rem; }
+
+.art-title, .art-author {
+  display: block;
+  font-size: .9rem; }
+
 .bid-small-art {
   position: relative;
   overflow: hidden;
@@ -7608,6 +7638,24 @@ p {
     .owl-carousel .owl-dots button.active {
       background-color: #fa2d48; }
 
+.owl-carousel .owl-nav .owl-next, .owl-carousel .owl-nav .owl-prev {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background-color: rgba(67, 81, 85, 0.8) !important;
+  position: absolute;
+  top: 45%; }
+  .owl-carousel .owl-nav .owl-next:hover, .owl-carousel .owl-nav .owl-prev:hover {
+    background-color: #fa2d48 !important; }
+
+.owl-carousel .owl-nav .owl-next {
+  right: -1rem; }
+
+.owl-carousel .owl-nav .owl-prev {
+  left: -1rem; }
+
 .btn {
   border-radius: 100px;
   text-transform: uppercase; }
@@ -7616,12 +7664,14 @@ p {
     .btn-primary:hover {
       background-color: #fa233f;
       color: #f3f4f6; }
+  .btn-link {
+    text-decoration: none; }
 
 .hero {
   padding: 5rem 0;
   padding-bottom: 2rem;
   margin-bottom: 4rem;
-  border-bottom: 1px solid #435155; }
+  border-bottom: 1px solid rgba(67, 81, 85, 0.4); }
   .hero-content {
     margin-top: 5rem; }
     .hero-content h2, .hero-content .h2 {
@@ -7649,3 +7699,9 @@ p {
     .nav-menu .btn:not(:last-child) {
       margin-right: 1rem;
       margin-bottom: 0; } }
+
+.section {
+  padding: 3rem 0; }
+  .section-heading {
+    display: flex;
+    justify-content: space-between; }

@@ -21,4 +21,31 @@
             }
         }
     }
+
+    .owl-nav{
+        .owl-next,.owl-prev{
+            width: 3rem;
+            height: 3rem;
+            border-radius: 50%;
+            display: grid;
+            place-items: center;
+            background-color: rgba($text-light, .8) !important;
+            position: absolute;
+            top: 45%;
+            
+
+            &:hover{
+                background-color: $primary !important;
+            }
+
+        }
+
+
+        .owl-next{
+            right: -1rem;
+        }
+        .owl-prev{
+            left: -1rem;
+        }
+    }
 }
