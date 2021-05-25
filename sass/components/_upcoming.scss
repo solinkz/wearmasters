@@ -1,0 +1,60 @@
+.upcoming{
+    &-art{
+
+        height: 480px;
+        border-radius: 1rem 1rem 0 0;
+        position: relative;
+        overflow: hidden;
+
+
+        img{
+            width: 100%;
+        }
+
+        &-overlay{
+            position: absolute;
+            background-image: linear-gradient(to bottom, transparent 20%, rgba($dark, .9) 60%, $dark 100%);
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: 2;
+            display: flex;
+            align-items: center;
+            padding: 2rem;
+
+            .desc{
+                h4{
+                    font-size: 2rem;
+                    font-weight: 400;
+                }
+
+                p{
+                    font-size: 1.3rem;
+                }
+            }
+            &-countdown{
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                display: flex;
+                justify-content: space-evenly;
+                width: 100%;
+
+                .for{
+                    span{
+                        display: block;
+                        text-align: center;
+                    }
+                    .val{
+                        font-size: 1.5rem;
+                        font-weight: 700;
+                    }
+                    .label{
+                        font-size: $font-size-sm;
+                    }
+                }
+            }
+        }
+    }
+}
